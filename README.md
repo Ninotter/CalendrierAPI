@@ -1,9 +1,10 @@
 
 # Calendar API
-## API .NET, demo avec WinForms, tests unitaire avec NUnit
 
-Application de démo disponible depuis la release dans la branche dev
+API en .NET Core 6, avec test unitaire NUnit
+## How to use
+#### Calendar class
 
-L'API est contenu dans une bibliothèque de classes appelé CalendrierApi.
-Elle renvoie une liste de IEnumerable en fonction de la date donnée qu'on lui fournit (soit au format DateTime, soit au format (int year, int month)) avec des méthodes surchargées, en appelant la méthode GetDaysInMonth() dans la classe statique Calendar.
+Use Calendar.GetDaysInMonth() to get the required days. It will return a IEnumerable<DateTime> containing all the required days. You can use a DateTime as input, or a simple year and month combination as integers.
 
+Calendar is static, it does not require an instance of it to use this method.
