@@ -1,7 +1,7 @@
 
 # Calendar API
 
-API en .NET Core 6, avec test unitaire NUnit
+API en .NET Core 6,with unit test NUnit
 ## How to use
 #### Calendar class
 
